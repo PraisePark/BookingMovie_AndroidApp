@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">BookingMovie</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- 영화 상세정보 관련 string -->
+    <string name="movie_title">제목</string>
+    <string name="movie_title_e">영어 제목</string>
+    <string name="movie_outline">개요</string>
+    <string name="movie_genre">장르</string>
+    <string name="movie_director">감독</string>
+    <string name="movie_country">국가</string>
+    <string name="movie_time">상영시간</string>
+    <string name="movie_releasedate">개봉일</string>
+    <string name="movie_actors">출연</string>
+    <string name="movie_level">등급</string>
+    <string name="movie_audiencegrade">평점</string>
+    <string name="movie_expertgrade">전문가 평점</string>
+    <string name="movie_synopsis">시놉시스</string>
+    <string name="movie_photo">포토</string>
+    <string name="movie_video">예고편</string>
+    <string name="movie_photonvideo">포토/예고편</string>
+    <string name="movie_goyoutube">예고편</string>
+    <string name="movie_timetable">상영시간표</string>
+
+    <string name="book">예매하기</string>
+    <string name="showmore">더보기</string>
+    <string name="showless">접기</string>
+
+    <!-- 영화 다이어리 -->
+    <string name="diary_none">영화에 대한 감상평을 기록하세요.</string>
+
+    <!-- ActionBar A text-->
+    <string name="menu_home">HOME</string>
+    <string name="menu_theater">영화관</string>
+    <string name="menu_book">예매</string>
+    <string name="menu_myticket">MY티켓</string>
+
+    <!-- ActionBar B text -->
+    <string name="menu_moviedetial">영화 상세정보</string>
+    <string name="menu_bookselect">영화 예매</string>
+    <string name="menu_theaterinfo">영화관 정보</string>
+    <string name="menu_diary">영화 다이어리</string>
+
+    <!-- googlemap -->
+    <string name="title_activity_theater_list">Map</string>
+
+    <!-- DB관련 -->
+    <string name="timetable_screen">관</string>
+    <string name="timetable_inning">회차</string>
+
+</resources>

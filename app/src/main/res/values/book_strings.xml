@@ -1,0 +1,55 @@
+<resources>
+
+    <string name="bookselectitem_date">"상영일자 선택"</string>
+    <string name="bookselectitem_theater">"영화관 선택"</string>
+    <string name="bookselectitem_movie">"영화 선택"</string>
+    <string name="bookselectitem_others">"시간/인원/좌석 선택"</string>
+
+    <string name="bookselectnone_date">"상영일자를 선택해주세요."</string>
+    <string name="bookselectnone_theater">"영화관을 선택해주세요."</string>
+    <string name="bookselectnone_movie">"영화를 선택해주세요."</string>
+    <string name="bookselectnone_others">"시간/인원/좌석을 선택해주세요."</string>
+
+    <string name="bookselect_theater">"예매를 원하시는 영화관을 선택하세요."</string>
+    <string name="bookselect_movie">"예매하실 영화를 선택하세요."</string>
+    <string name="bookselect_time">"상영시간을 선택해주세요."</string>
+
+    <string name="cancel_book">"예매취소"</string>
+    <string name="cancel_book_question">"정말로 예매를 취소하시겠습니까?"</string>
+
+    <string name="movie_diary">"영화다이어리"</string>
+
+    <string name="book_time_screen">"관"</string>
+    <string name="book_time_inning">"회"</string>
+    <string name="book_time_remainderseat">"잔여"</string>
+
+    <string name="book_number">예매번호</string>
+
+
+    <string-array name="book_time_innings">
+        <item>"9:00 ~ 12:00"</item>
+        <item>"12:00 ~ 15:00"</item>
+        <item>"15:00 ~ 18:00"</item>
+        <item>"18:00 ~ 21:00"</item>
+        <item>"21:00 ~ 24:00"</item>
+    </string-array>
+
+    <string name="book_time_inning_01">"9:00 ~ 12:00"</string>
+    <string name="book_time_inning_02">"12:00 ~ 15:00"</string>
+    <string name="book_time_inning_03">"15:00 ~ 18:00"</string>
+    <string name="book_time_inning_04">"18:00 ~ 21:00"</string>
+    <string name="book_time_inning_05">"21:00 ~ 24:00"</string>
+
+    <string name="book_adult">"일반"</string>
+    <string name="book_teen">"청소년"</string>
+    <string name="book_plus">"+"</string>
+    <string name="book_minus">"-"</string>
+
+    <string name="book_selectfinish">"선택
+완료"</string>
+
+    <string name="book_pay">결제금액</string>
+    <string name="book_won">원</string>
+
+
+</resources>

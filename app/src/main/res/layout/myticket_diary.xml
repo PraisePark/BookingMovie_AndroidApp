@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="126dp"
+        android:layout_height="189dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/avengers_350"
+        android:id="@+id/myticket_diary_poster"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:textColor="#AA1212"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+        android:shadowDx="2.0"
+        android:shadowDy="2.0"
+        android:shadowRadius="2.0"
+        android:id="@+id/myticket_diary_movietitle"
+        android:text="@string/avengers_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TableRow>
+                <TextView
+                    android:text="영화관"
+                    android:textColor="#8D8D8D"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:id="@+id/myticket_diary_theater"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="관람일"
+                    android:textColor="#8D8D8D"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:id="@+id/myticket_diary_showdate"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="10dp"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:background="#BABABA"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/myticket_diary_textview"
+            android:text="@string/jangsoo_synopsis" />
+
+        <EditText
+            android:visibility="gone"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:lines="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/myticket_diary_edittext"
+            android:hint="@string/diary_none" />
+
+        <Button
+            android:visibility="gone"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="저장"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/myticket_diary_save_btn"/>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

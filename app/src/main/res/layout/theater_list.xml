@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/theaterlist_googlemap"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Spinner
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/theaterlist_spinner"
+            android:background="#BBFFFFFF">
+
+        </Spinner>
+
+        <TableLayout
+            android:background="#BBFFFFFF"
+            android:padding="10dp"
+            android:id="@+id/theaterlist_theaterinfo_tablelayout"
+            android:layout_marginTop="335dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*">
+
+            <TableRow>
+                <TextView
+                    android:gravity="left"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="15dp"
+                    android:textColor="#AA1212"
+                    android:textStyle="bold"
+                    android:shadowColor="#212121"
+                    android:shadowDx="2.0"
+                    android:shadowDy="2.0"
+                    android:shadowRadius="2.0"
+                    android:textSize="30sp"
+                    android:singleLine="true"
+                    android:id="@+id/theaterlist_theater_name"
+                    android:text="@string/theater01_name"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:gravity="left"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#000000"
+                    android:singleLine="true"
+                    android:ellipsize="marquee"
+                    android:id="@+id/theaterlist_theater_address"
+                    android:text="@string/theater01_address"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:gravity="left"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#000000"
+                    android:id="@+id/theaterlist_theater_tel"
+                    android:text="@string/theater01_tel"/>
+            </TableRow>
+
+            <TableRow>
+                <Button
+                    android:layout_marginTop="5dp"
+                    android:textColor="#000000"
+                    android:id="@+id/theaterlist_gobook"
+                    android:text="@string/book"/>
+            </TableRow>
+
+        </TableLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

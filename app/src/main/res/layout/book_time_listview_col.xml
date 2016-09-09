@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:background="#FFFFFF">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:id="@+id/book_time_listview_col_screen"/>
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textColor="#000000"
+                android:id="@+id/book_time_listview_col_time"/>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:text="@string/book_time_remainderseat"/>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#AA1212"
+                android:textSize="18dp"
+                android:text="99"
+                android:id="@+id/book_time_listview_col_seat"/>
+
+            <TextView
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text=" /100"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+
+
+</LinearLayout>

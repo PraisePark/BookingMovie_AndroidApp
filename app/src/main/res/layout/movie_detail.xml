@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:alpha=".3"
+        android:id="@+id/moviedetail_background"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="50dp"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_span="2"
+            android:textColor="#AA1212"
+            android:textStyle="bold"
+            android:shadowColor="#747474"
+            android:shadowDx="2.0"
+            android:shadowDy="2.0"
+            android:shadowRadius="2.0"
+            android:textSize="30sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:singleLine="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/avengers_title"
+            android:id="@+id/moviedetail_title"/>
+
+        <TextView
+            android:layout_span="2"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:singleLine="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/avengers_title_e"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/moviedetail_title_e"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:id="@+id/moviedetail_scrollview"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:layout_marginTop="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableRow>
+                        <TextView
+                            android:textColor="#8C8C8C"
+                            android:textStyle="bold"
+                            android:text="@string/movie_genre"
+                            android:layout_marginRight="10dp"/>
+                        <TextView
+                            android:textColor="#FFFFFF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="액션,모험,판타지,SF"
+                            android:id="@+id/moviedetail_genre"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:textColor="#8C8C8C"
+                            android:textStyle="bold"
+                            android:text="@string/movie_outline"
+                            android:layout_marginRight="10dp"/>
+                        <TextView
+                            android:textColor="#FFFFFF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="141분 | 미국 | 2015.04.23개봉"
+                            android:id="@+id/moviedetail_outline"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:textColor="#8C8C8C"
+                            android:textStyle="bold"
+                            android:text="@string/movie_director"
+                            android:layout_marginRight="10dp"/>
+                        <TextView
+                            android:textColor="#FFFFFF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="조스 웨던"
+                            android:id="@+id/moviedetail_director"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:textColor="#8C8C8C"
+                            android:textStyle="bold"
+                            android:text="@string/movie_actors"
+                            android:layout_marginRight="10dp"/>
+                        <TextView
+                            android:textColor="#FFFFFF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/avengers_actors"
+                            android:singleLine="true"
+                            android:ellipsize="marquee"
+                            android:id="@+id/moviedetail_actors"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:textColor="#8C8C8C"
+                            android:textStyle="bold"
+                            android:text="@string/movie_level"
+                            android:layout_marginRight="10dp"/>
+                        <TextView
+                            android:textColor="#FFFFFF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="12세 관람가"
+                            android:id="@+id/moviedetail_level"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:textColor="#8C8C8C"
+                            android:textStyle="bold"
+                            android:text="@string/movie_audiencegrade"
+                            android:layout_marginRight="10dp"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical">
+                            <RatingBar
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/moviedetail_audiencegrade_rating"
+                                style="?android:attr/ratingBarStyleIndicator"
+                                android:numStars="5"/>
+                            <TextView
+                                android:textColor="#AA1212"
+                                android:textSize="30sp"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:id="@+id/moviedetail_audiencegrade"/>
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:textColor="#8C8C8C"
+                            android:textStyle="bold"
+                            android:layout_span="2"
+                            android:text="@string/movie_synopsis"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:textColor="#FFFFFF"
+                            android:layout_span="2"
+                            android:paddingRight="35dp"
+                            android:text="@string/avengers_synopsis"
+                            android:maxLines="5"
+                            android:id="@+id/moviedetail_synopsis"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <Button
+                            android:layout_span="2"
+                            android:text="@string/showmore"
+                            android:textColor="#8C8C8C"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:id="@+id/moviedetail_synopsis_more"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:textColor="#8C8C8C"
+                            android:textStyle="bold"
+                            android:layout_span="2"
+                            android:text="@string/movie_photonvideo"
+                            android:layout_marginBottom="2dp"/>
+                    </TableRow>
+                </TableLayout>
+
+                <HorizontalScrollView
+                    android:id="@+id/moviedetail_photonvidio_scrollview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+                    <LinearLayout
+                        android:id="@+id/moviedetail_photonvidio_scrollview_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#AA1212"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@drawable/black_button"
+        android:text="@string/book"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/moviedetail_bookthismovie_btn"/>
+
+</RelativeLayout>

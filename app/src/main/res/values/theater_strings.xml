@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- 영화관 정보 -->
+    <string name="theater_name">"영화관"</string>
+    <string name="theater_address">"주소"</string>
+    <string name="theater_tel">"전화번호"</string>
+
+    <string name="theater01_name">"수원"</string>
+    <string name="theater02_name">"동수원"</string>
+    <string name="theater03_name">"북수원"</string>
+    <string name="theater04_name">"영통"</string>
+    <string-array name="theater_name_array">
+        <item>"영화관을 선택하세요."</item>
+        <item>"수원"</item>
+        <item>"동수원"</item>
+        <item>"북수원"</item>
+        <item>"영통"</item>
+    </string-array>
+
+    <string name="theater01_lat">"37.265684"</string>
+    <string name="theater02_lat">"37.263512"</string>
+    <string name="theater03_lat">"37.303582"</string>
+    <string name="theater04_lat">"37.252805"</string>
+
+    <string name="theater01_lon">"127.000309"</string>
+    <string name="theater02_lon">"127.032084"</string>
+    <string name="theater03_lon">"127.007504"</string>
+    <string name="theater04_lon">"127.071980"</string>
+
+    <string name="theater01_tel">"1544-1122"</string>
+    <string name="theater02_tel">"1544-1122"</string>
+    <string name="theater03_tel">"1544-1122"</string>
+    <string name="theater04_tel">"1544-0070"</string>
+
+    <string name="theater01_address">"경기도 수원시 팔달구 덕영대로 924 (매산로1가, 수원역사 6층)"</string>
+    <string name="theater02_address">"경기도 수원시 팔달구 권광로 181 (인계동, 씨네파크 7층)"</string>
+    <string name="theater03_address">"경기도 수원시 장안구 경수대로 950 (조원동, 북수원패션아울렛 4층)"</string>
+    <string name="theater04_address">"경기도 수원시 영통구 봉영로 1579 롯데쇼핑플라자 5층"</string>
+
+</resources>
